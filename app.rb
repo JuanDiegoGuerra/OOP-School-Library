@@ -58,7 +58,7 @@ class App
       person_name = gets.chomp.to_s.capitalize
       print 'Specialization: '
       person_specialization = gets.chomp.to_s.capitalize
-      @people << Teacher.new(person_age, person_specialization, name: person_name)
+      @people << Teacher.new(person_specialization, person_age, name: person_name)
       puts 'Teacher created successfully'
     else
       puts 'Error: Enter a valid number'
