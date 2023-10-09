@@ -63,7 +63,6 @@ class App
     data = teacher_info
     @people << Teacher.new(data[0], data[2], name: data[1])
     puts 'Teacher created successfully'
-
   end
 
   def create_book
@@ -73,12 +72,12 @@ class App
   end
 
   def create_rental
-    puts 'Select a book from the following list by number'    
+    puts 'Select a book from the following list by number'
     list_books
     selected_book = book_rental_info
     @books[selected_book]
-    
-    puts 'Select a person from the following list by number'    
+
+    puts 'Select a person from the following list by number'
     list_people
     selected_person = person_rental_info
     @people[selected_person]
