@@ -115,8 +115,9 @@ You can now start creating new objects with the class constructors.
 
 👨🏼‍🚀 **Hafizullah Rasa**
 
-- GitHub: [@hafiz1279](https://github.com/hafiz1379)
-- LinkedIn: []()
+- GitHub: [@githubhandle](https://github.com/hafiz1379)
+- Twitter: [@twitterhandle](https://twitter.com/Hafizrasa1379?s=35)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hafizullah-rasa-8436a1257/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
