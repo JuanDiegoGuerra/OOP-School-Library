@@ -33,9 +33,6 @@ class Person < Nameable
   end
 
   def generate_id
-    timestamp = Time.now.to_i
-    random_id = rand(1000..9999)
-    id = "#{random_id}#{timestamp}"
-    id.to_i
+    rand(1..100)
   end
 end
