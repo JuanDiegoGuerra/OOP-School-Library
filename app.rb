@@ -7,7 +7,6 @@ require_relative 'user_data'
 class App
   include UserData
   def initialize
-    puts 'Welcome to School Library App!'
     @books = []
     @people = []
     @rentals = []
