@@ -1,0 +1,22 @@
+[
+    {
+      "date": "03/03/2023",
+      "title": "The lord of the rings",
+      "author": "Tolkien",
+      "id": 3,
+      "name": "Rose",
+      "age": 23,
+      "type": "Student",
+      "classroom": null
+    },
+    {
+      "date": "07/07/23",
+      "title": "It",
+      "author": "Steven King",
+      "id": 77,
+      "name": "JD",
+      "age": 25,
+      "type": "Teacher",
+      "specialization": "Thermodinamics"
+    }
+  ]
