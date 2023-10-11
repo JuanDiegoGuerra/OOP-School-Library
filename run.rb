@@ -1,8 +1,11 @@
 require_relative 'app'
 require_relative 'user_data'
+require_relative 'helpers_methods'
 
 class Run
   include UserData
+  include SaveData
+  include LoadData
 
   def initialize
     @app = App.new
@@ -37,16 +40,7 @@ class Run
     when 2
       @app.list_people
     when 3
-      print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
-      person_type = gets.chomp.to_i
-      case person_type
-      when 1
-        @app.create_student
-      when 2
-        @app.create_teacher
-      else
-        puts 'Error: Enter a valid number'
-      end
+      @app.create_person
     when 4
       @app.create_book
     when 5
